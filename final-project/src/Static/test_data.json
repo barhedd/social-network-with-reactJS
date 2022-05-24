@@ -1,0 +1,102 @@
+{
+    "data": [
+      {
+        "_id": "618b4138ef6ad583cae7a850",
+        "title": "Cuarta publicación",
+        "description": "Esta es la descripción del POST",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzZiYzQwMTQtNTc0MS00ODEwLWI2NzUtZDVhOTBlMDA1YmY2XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "active": true,
+        "user": {
+          "username": "test_admin"
+        },
+        "likes": [],
+        "history": [],
+        "createdAt": "2021-11-10T03:49:12.943Z",
+        "updatedAt": "2021-11-10T03:49:12.943Z",
+        "__v": 0,
+        "comments": []
+      },
+      {
+        "_id": "618b40b6ef6ad583cae7a84a",
+        "title": "Tercera publicación",
+        "description": "Esta es la descripción del POST",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzZiYzQwMTQtNTc0MS00ODEwLWI2NzUtZDVhOTBlMDA1YmY2XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "active": true,
+        "user": {
+          "username": "test_admin"
+        },
+        "likes": [
+          {
+            "username": "test_user"
+          },
+          {
+            "username": "test_admin"
+          }
+        ],
+        "history": [],
+        "createdAt": "2021-11-10T03:47:02.235Z",
+        "updatedAt": "2021-11-10T04:55:40.146Z",
+        "__v": 7,
+        "comments": [
+          {
+            "description": "Este es un buen post, sigan así",
+            "user": {
+              "username": "test_admin"
+            },
+            "_id": "618b50c35f980a8d86c5332a"
+          },
+          {
+            "description": "Este es un buen post, sigan así x2",
+            "user": {
+              "username": "test_admin"
+            },
+            "_id": "618b50cc5f980a8d86c53333"
+          }
+        ]
+      },
+      {
+        "_id": "618b40aeef6ad583cae7a846",
+        "title": "Segunda publicación",
+        "description": "Esta es la descripción del POST",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzZiYzQwMTQtNTc0MS00ODEwLWI2NzUtZDVhOTBlMDA1YmY2XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "active": true,
+        "user": {
+          "username": "test_admin"
+        },
+        "likes": [],
+        "history": [],
+        "createdAt": "2021-11-10T03:46:54.241Z",
+        "updatedAt": "2021-11-10T03:46:54.241Z",
+        "__v": 0,
+        "comments": []
+      },
+      {
+        "_id": "618b409fef6ad583cae7a842",
+        "title": "Primera publicación [Edit]",
+        "description": "Esta es la descripción del POST Modificado",
+        "image": "https://m.media-amazon.com/images/M/MV5BNzZiYzQwMTQtNTc0MS00ODEwLWI2NzUtZDVhOTBlMDA1YmY2XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+        "active": false,
+        "user": {
+          "username": "test_admin"
+        },
+        "likes": [],
+        "history": [
+          {
+            "title": "Primera publicación",
+            "description": "Esta es la descripción del POST",
+            "image": "https://m.media-amazon.com/images/M/MV5BNzZiYzQwMTQtNTc0MS00ODEwLWI2NzUtZDVhOTBlMDA1YmY2XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+            "modifiedAt": "2021-11-10T04:20:25.496Z",
+            "_id": "618b488999add7453bc6df3c"
+          }
+        ],
+        "createdAt": "2021-11-10T03:46:39.493Z",
+        "updatedAt": "2021-11-10T04:36:25.342Z",
+        "__v": 2,
+        "comments": []
+      }
+    ],
+    "page": 0,
+    "pages": 1,
+    "limit": 15
+  }
+  
